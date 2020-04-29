@@ -1,0 +1,3 @@
+API CONSUMIDA =>
+Recibe dos parametros opcionales por la URL, con el metodo GET
+https://api.lyrics.ovh/v1/Coldplay/Adventure of a Lifetime
