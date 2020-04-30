@@ -60,9 +60,19 @@ h2 {
 .input label {
     flex: 0 0 120px;
     text-align: right;
-    margin-right: 1rem;
+    margin-right: .5rem;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .input label {
+        margin-right: .2rem;
+    }
+    .input input[type="text"] {
+        min-width: 11rem;
+        /* max-width: 12rem; */
+    }
 }
 
 .input span {
@@ -70,6 +80,7 @@ h2 {
 }
 
 .input input[type="text"] {
+    width: 10.5rem;
     height: 2.5rem;
     padding: 1rem;
     display: flex;
