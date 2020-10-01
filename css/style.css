@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    background-image: linear-gradient( to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
     font-family: 'Montserrat', sans-serif;
     min-height: 100%;
 }
@@ -34,13 +34,17 @@ h2 {
     padding: 20px;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
     .contenedor {
         display: flex;
     }
     .contenedor>div {
         flex: 1 0 50%;
     }
+}
+
+.formulario {
+    margin-top: 0.5rem;
 }
 
 .formulario-busqueda p {
@@ -60,16 +64,16 @@ h2 {
 .input label {
     flex: 0 0 120px;
     text-align: right;
-    margin-right: .5rem;
+    margin-right: 0.5rem;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
     .input label {
-        margin-right: .2rem;
+        margin-right: 0.2rem;
     }
-    .input input[type="text"] {
+    .input input[type='text'] {
         min-width: 11rem;
         /* max-width: 12rem; */
     }
@@ -79,7 +83,7 @@ h2 {
     color: red;
 }
 
-.input input[type="text"] {
+.input input[type='text'] {
     width: 10.5rem;
     height: 2.5rem;
     padding: 1rem;
@@ -89,19 +93,19 @@ h2 {
 
 .enviar {
     text-align: right;
-    justify-content: flex-end!important;
+    justify-content: flex-end !important;
 }
 
-.input input[type="submit"] {
+.input input[type='submit'] {
     background-color: #6f86d6;
-    padding: .5rem 2rem;
+    padding: 0.5rem 2rem;
     color: white;
     align-self: flex-end;
     border: none;
-    transition: background-color .3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
 }
 
-.input input[type="submit"]:hover {
+.input input[type='submit']:hover {
     cursor: pointer;
     background-color: #384e9d;
 }
